@@ -1,16 +1,23 @@
 import React from "react";
 import { LinkedIn, GitHub, Email } from "@material-ui/icons";
 import "../styles/Home.css";
+import picture from "../images/picture.jpg";
+
 const HomePage = () => {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hello! My name is Matthew</h2>
-        <div className="prompt">
-          <p>Software Development student with a passion for Healthcare</p>
-          <LinkedIn />
-          <Email />
-          <GitHub />
+        <img id="headshot-pic" src={picture} alt="" />
+        <div className="prompt-container">
+          <h2>Hello! My name is Matthew</h2>
+          <div className="prompt">
+            <p>Software Development student with a passion for Healthcare</p>
+            <div className="icon-container">
+              <LinkedIn />
+              <Email />
+              <GitHub />
+            </div>
+          </div>
         </div>
       </div>
       <div className="skills">

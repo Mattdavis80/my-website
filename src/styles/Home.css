@@ -7,14 +7,28 @@
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(200vh - 100px);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   background-color: #21325e;
   color: #f0f0f0;
+}
+
+.prompt-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: aqua;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+#headshot-pic {
+  height: 200px;
 }
 
 .about h2 {
@@ -22,6 +36,7 @@
   font-size: 80px;
   color: #e9d35b;
   height: 50px;
+  margin: 100px;
 }
 
 .about .prompt {
