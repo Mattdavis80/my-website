@@ -7,21 +7,19 @@ const HomePage = () => {
   return (
     <div className="home">
       <div className="about">
-        <img id="headshot-pic" src={picture} alt="" />
-        <div className="prompt-container">
-          <h2>Hello! My name is Matthew</h2>
-          <div className="prompt">
-            <p>Software Development student with a passion for Healthcare</p>
-            <div className="icon-container">
-              <LinkedIn />
-              <Email />
-              <GitHub />
-            </div>
-          </div>
+        <img src={picture} alt="headshot" id="headshot" />
+        <h2> Hello!, My Name is Matthew</h2>
+        <div className="prompt">
+          <p>
+            I am a Software Development Student and Healthcare Professional.
+          </p>
+          <LinkedIn />
+          <Email />
+          <GitHub />
         </div>
       </div>
       <div className="skills">
-        <h1>My Current skills</h1>
+        <h1> Skills</h1>
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>

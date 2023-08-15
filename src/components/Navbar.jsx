@@ -13,6 +13,14 @@ const Navbar = () => {
     setExpandNavbar(false);
   }, [location]);
 
+  // Check if the current path is '/resume'
+  const isResumePath = location.pathname === "/resume";
+
+  // Conditionally render the navbar based on the path
+  if (isResumePath) {
+    return null; // Return nothing to hide the navbar
+  }
+
   return (
     <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
@@ -29,6 +37,7 @@ const Navbar = () => {
           <Link to="/">Home</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/experience">Experience</Link>
+          <Link to="/contact">Contact Me</Link>
         </div>
       </div>
     </div>
