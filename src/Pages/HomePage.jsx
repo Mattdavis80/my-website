@@ -13,9 +13,20 @@ const HomePage = () => {
           <p>
             I am a Software Development Student and Healthcare Professional.
           </p>
-          <LinkedIn />
-          <Email />
-          <GitHub />
+          <a
+            href="https://www.linkedin.com/in/matthew-davis-545a71126"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkedIn />
+          </a>
+          <a
+            href="https://github.com/Mattdavis80"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <GitHub />
+          </a>
         </div>
       </div>
       <div className="skills">

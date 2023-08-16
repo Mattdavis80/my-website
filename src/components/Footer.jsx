@@ -17,10 +17,22 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <LinkedIn />
-        <GitHub />
+        <a
+          href="https://www.linkedin.com/in/matthew-davis-545a71126"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedIn />
+        </a>
+        <a
+          href="https://github.com/Mattdavis80"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHub />
+        </a>
       </div>
-      <p>Made by Matthew Davis, 2023</p>
+      <p>Made by Matt Davis, 2023</p>
     </div>
   );
 };

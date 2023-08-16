@@ -6,7 +6,12 @@ const ResumePage = () => {
   return (
     <>
       <div className="resume-container">
-        <iframe src={resume} frameborder="0" className="resume"></iframe>
+        <iframe
+          src={resume}
+          frameborder="0"
+          className="resume"
+          title="resume"
+        ></iframe>
       </div>
     </>
   );
