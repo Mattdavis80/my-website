@@ -53,7 +53,7 @@ const HomePage = () => {
             <span>ReactJS,HTML, CSS, React Native, NPM, MaterialUI,</span>
           </li>
           <li className="item">
-            <h2>Back-End - Semester 3/4</h2>
+            <h2>Back-End - Learning in the coming semesters</h2>
             <span>
               NodeJS, Java Spring, .NET, ExpressJS, MySQL, MongoDB, DynamoDB
             </span>
