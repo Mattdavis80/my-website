@@ -28,9 +28,9 @@ function ProjectDisplay() {
         <p className="project-description">
           <b>Description:</b> {project.description}
         </p>
-        <a href={project.link}>
+        {/* <a href={project.link}>
           <GitHub />
-        </a>
+        </a> */}
       </div>
     </>
   );

@@ -34,8 +34,8 @@ function Experience() {
             Bachelor of Kinesiology, Memorial University
           </h3>
           <p>
-            After graduation, I worked as a Kinesioloist at Pearlgate
-            Pyhsiotherapy 2014-2016
+            After graduation, I worked as a Kinesiologist at Pearlgate
+            Physiotherapy 2014-2016
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -58,7 +58,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2023 - 2024"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">

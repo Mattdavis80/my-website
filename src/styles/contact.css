@@ -1,0 +1,77 @@
+.contact-form {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.email-sent-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background-color: #3e497a; /* Light green color */
+  color: #ffffff;
+  font-size: 3rem;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+  width: 30%;
+  border-radius: 8px;
+  margin: 2rem auto;
+}
+
+.email-sent-message.active {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 850px) {
+  .contact-form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  color: #2766da;
+  height: 50px;
+  margin-left: 2rem;
+}
