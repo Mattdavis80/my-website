@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
       <div className="projects">
-        <h1>My Projects</h1>
+        <h1 className="projectTitle">My Projects</h1>
         <div className="projectList">
           {projectList.map((project, index) => {
             return (

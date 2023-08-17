@@ -8,9 +8,11 @@
 }
 .projects .projectTitle {
   text-align: center;
-  color: #3e497a;
-  font-size: 60px;
+  color: #004e98;
+  font-size: 50px;
   font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .projectList {
@@ -62,6 +64,10 @@
 @media only screen and (max-width: 850px) {
   .projectList {
     grid-template-columns: 1fr;
+  }
+
+  .projects .projectTitle {
+    font-size: 40px;
   }
 }
 

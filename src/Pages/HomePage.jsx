@@ -8,34 +8,41 @@ const HomePage = () => {
     <div className="home">
       <div className="about">
         <img src={picture} alt="headshot" id="headshot" />
-        <h2> Hello!, My Name is Matthew</h2>
+        <h2>Hello! My Name is Matthew</h2>
         <div className="prompt">
           <p>
-            I am a Software Development Student and Healthcare Professional.
+            I am a Software Development Student currently enrolled at Keyin
+            College in St. John's, Newfoundland
           </p>
-          <a
-            href="https://www.linkedin.com/in/matthew-davis-545a71126"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <LinkedIn />
-          </a>
-          <a
-            href="https://github.com/Mattdavis80"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <GitHub />
-          </a>
+          <div className="social-links">
+            <a
+              href="https://www.linkedin.com/in/matthew-davis-545a71126"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedIn />
+            </a>
+            <a
+              href="https://github.com/Mattdavis80"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHub />
+            </a>
+          </div>
         </div>
       </div>
       <div className="skills">
         <h1>About me</h1>
         <p className="info">
-          I am a Third Semester Software Development Student at Keyin College. I
-          am currently starting to learn Back-end Development after having
-          finished learning Front-end technology. I currently work in the
-          healthcare felid and am transitioning into tech.
+          I am a Registered Nurse who has been looking to transition into the
+          technology sector. To begin this goal, I am currently enrolled as a
+          Software Development Student at Keyin College in my third semester. I
+          pride myself in being a life-long learner and self-motivated student.
+          I have recently completed the Front-End development curriculum and
+          have moved on to learning about Back-End development. I look forward
+          to graduating with a diploma from Keyin College and working as a
+          software developer full-time.
         </p>
       </div>
       <div className="skills">
@@ -50,10 +57,6 @@ const HomePage = () => {
             <span>
               NodeJS, Java Spring, .NET, ExpressJS, MySQL, MongoDB, DynamoDB
             </span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
-            <span>JavaScript, Python</span>
           </li>
         </ol>
       </div>

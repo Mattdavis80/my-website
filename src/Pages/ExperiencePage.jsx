@@ -23,49 +23,50 @@ function Experience() {
           Click Here for Resume
         </Button>
       </div>
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#004e98">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2014"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#004e98", color: "#fff" }}
           icon={<FitnessCenter />}
         >
           <h3 className="vertical-timeline-element-title">
             Bachelor of Kinesiology, Memorial University
           </h3>
           <p>
-            After graduation, I worked as a Kinesiologist at Pearlgate
-            Physiotherapy 2014-2016
+            From 2015-2016 I worked as a Kinesiologist at Pearlgate
+            Physiotherapy
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2019"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#004e98", color: "#fff" }}
           icon={<LocalHospital />}
         >
           <h3 className="vertical-timeline-element-title">
-            Bachelor of Nursing (Fast Track), Memorial University
+            Bachelor of Nursing - Fast Track, Memorial University
           </h3>
           <p>
-            From 2019 - 2021 I worked as a Registered Nurse in a rural hospital
-            in PEI.
+            - From 2019 - 2021 I worked as a Registered Nurse in a rural
+            hospital in PEI
           </p>
           <p>
-            I currently work as a Registered Nurse in the Operating Room in{" "}
+            I currently work as a Registered Nurse in the Operating Room in St.
+            John`s, NL
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2023 - 2024"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#004e98", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
             Software Development, Keyin College
           </h3>
-          <p>I will graduate the Software Development Program in 2024!</p>
-          <p>This program teaches both Front-end and Back-end development</p>
+          <p>Currently enrolled, with graduation in 2024</p>
+          <p>I am learning both Front-end and Back-end development</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
