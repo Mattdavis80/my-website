@@ -12,10 +12,10 @@ import ProjectDisplay from "./Pages/ProjectDisplay";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
-          <Route path="/my-website" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="projects" element={<Projects />} />
           <Route path="experience" element={<ExperiencePage />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
