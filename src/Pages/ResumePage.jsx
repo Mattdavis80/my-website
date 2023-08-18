@@ -1,19 +1,14 @@
 import React from "react";
-import resume from "../resume/resume.pdf";
+import resume1 from "../images/resume1.jpg";
+import resume2 from "../images/resume2.jpg";
 import "../styles/resume.css";
 
 const ResumePage = () => {
   return (
     <>
       <div className="resume-container">
-        <object
-          data={resume}
-          width="100%"
-          height="1000
-        "
-          type="application/pdf"
-          aria-label="resume"
-        ></object>
+        <img className="resume-img" src={resume1} alt="first resume page" />
+        <img className="resume-img" src={resume2} alt="first resume page" />
       </div>
     </>
   );
