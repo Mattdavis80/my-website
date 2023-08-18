@@ -19,11 +19,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setIsEmailSent(true); // Set the email sent state to true
+          setIsEmailSent(true);
           setTimeout(() => {
-            setIsEmailSent(false); // Reset the email sent state after 3 seconds
+            setIsEmailSent(false);
           }, 3000);
-          form.current.reset(); // Reset the form after successful submission
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);

@@ -21,9 +21,6 @@ function ProjectDisplay() {
         <h1>{project.name}</h1>
         <img src={project.image} alt="project" />
         <p className="project-description">{project.description}</p>
-        {/* <a href={project.link}>
-          <GitHub />
-        </a> */}
       </div>
     </>
   );

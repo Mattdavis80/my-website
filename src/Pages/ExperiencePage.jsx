@@ -21,9 +21,14 @@ function Experience() {
           to="resume"
           target="_blank"
         >
-          <Link id="resume-link" to="/resume">
-            Click Here for Resume
-          </Link>
+          <a
+            href="https://docs.google.com/document/d/1mHaV8TOV5_adAf05kfQYTIuLduWGijFXo9Hx5ioSjtc/edit?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-link"
+          >
+            CLick here for resume
+          </a>
         </Button>
       </div>
       <VerticalTimeline lineColor="#004e98">
