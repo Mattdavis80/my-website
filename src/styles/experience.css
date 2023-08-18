@@ -5,3 +5,8 @@
 .button-container {
   margin: 2rem;
 }
+
+#resume-link {
+  text-decoration: none;
+  color: white;
+}

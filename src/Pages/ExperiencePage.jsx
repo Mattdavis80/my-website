@@ -21,7 +21,9 @@ function Experience() {
           to="resume"
           target="_blank"
         >
-          <Link to="/resume">Click Here for Resume</Link>
+          <Link id="resume-link" to="/resume">
+            Click Here for Resume
+          </Link>
         </Button>
       </div>
       <VerticalTimeline lineColor="#004e98">
