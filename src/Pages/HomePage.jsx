@@ -8,7 +8,7 @@ const HomePage = () => {
     <div className="home">
       <div className="about">
         <img src={picture} alt="headshot" id="headshot" />
-        <h2>Hello, My name is Matt!</h2>
+        <h2>Hello, my name is Matt!</h2>
         <div className="prompt">
           <p>
             I am a Software Development Student currently enrolled at Keyin
