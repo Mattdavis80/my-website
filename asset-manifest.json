@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.7e474e2a.css",
-    "main.js": "/my-website/static/js/main.39cc7d3c.js",
+    "main.css": "/my-website/static/css/main.624f7d94.css",
+    "main.js": "/my-website/static/js/main.c9b3bdb4.js",
     "static/js/787.bbe01249.chunk.js": "/my-website/static/js/787.bbe01249.chunk.js",
     "static/media/picture.jpg": "/my-website/static/media/picture.f6360a8e3f8b424dd560.jpg",
-    "static/media/resume.pdf": "/my-website/static/media/resume.acc36f4072b4231a0f5a.pdf",
     "static/media/workoutapp.jpg": "/my-website/static/media/workoutapp.62a9395de2f3bc132a72.jpg",
     "static/media/expenses.jpg": "/my-website/static/media/expenses.651c6f2bb51b65deb81b.jpg",
+    "static/media/resume1.jpg": "/my-website/static/media/resume1.66b504652f3f8d87ee19.jpg",
     "static/media/dj1robot.jpg": "/my-website/static/media/dj1robot.3ed0341ae77bc76c69a0.jpg",
+    "static/media/resume2.jpg": "/my-website/static/media/resume2.28318c109b95addeda1c.jpg",
     "index.html": "/my-website/index.html",
-    "main.7e474e2a.css.map": "/my-website/static/css/main.7e474e2a.css.map",
-    "main.39cc7d3c.js.map": "/my-website/static/js/main.39cc7d3c.js.map",
+    "main.624f7d94.css.map": "/my-website/static/css/main.624f7d94.css.map",
+    "main.c9b3bdb4.js.map": "/my-website/static/js/main.c9b3bdb4.js.map",
     "787.bbe01249.chunk.js.map": "/my-website/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e474e2a.css",
-    "static/js/main.39cc7d3c.js"
+    "static/css/main.624f7d94.css",
+    "static/js/main.c9b3bdb4.js"
   ]
 }
