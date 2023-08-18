@@ -9,6 +9,7 @@ import { FitnessCenter, LocalHospital } from "@material-ui/icons";
 import Button from "@mui/material/Button";
 import ResumePage from "./ResumePage";
 import "../styles/experience.css";
+import { Link } from "react-router-dom";
 
 function Experience() {
   return (
@@ -17,8 +18,9 @@ function Experience() {
         <Button
           variant="contained"
           className="resume-button"
-          href="resume"
-          target={<ResumePage />}
+          component={Link}
+          to="/resume"
+          target="_blank"
         >
           Click Here for Resume
         </Button>

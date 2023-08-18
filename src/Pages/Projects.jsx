@@ -3,9 +3,6 @@ import ProjectItem from "../components/ProjectItem";
 import "../styles/Project.css";
 import { projectList } from "../data/ProjectList.js";
 
-// Image Imports
-import dj1robot from "../images/dj1robot.jpg";
-
 const Projects = () => {
   return (
     <>
