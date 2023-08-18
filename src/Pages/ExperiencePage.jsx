@@ -7,7 +7,6 @@ import "react-vertical-timeline-component/style.min.css";
 import WorkIcon from "@material-ui/icons/Work";
 import { FitnessCenter, LocalHospital } from "@material-ui/icons";
 import Button from "@mui/material/Button";
-import ResumePage from "./ResumePage";
 import "../styles/experience.css";
 import { Link } from "react-router-dom";
 
@@ -19,10 +18,10 @@ function Experience() {
           variant="contained"
           className="resume-button"
           component={Link}
-          to="/resume"
+          to="resume"
           target="_blank"
         >
-          Click Here for Resume
+          <Link to="/resume">Click Here for Resume</Link>
         </Button>
       </div>
       <VerticalTimeline lineColor="#004e98">
